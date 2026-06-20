@@ -1,0 +1,33 @@
+# GeoIQ Configuration Parameters
+# Use '#' for comments. Empty lines are ignored.
+
+# Input and output directories
+input_file=data/raw/samples.csv
+output_dir=output/
+
+# Spatial Analysis settings
+local_radius_km=10.0
+regional_radius_km=100.0
+idw_power=2.0
+grid_cell_size_km=1.0
+
+# Statistical parameters
+min_neighbours=3
+target_neighbours=8
+
+# Target rule evaluation switches
+enable_arsenic=true
+enable_gold=true
+enable_diamond=true
+enable_copper=true
+enable_lithium=true
+enable_ree=true
+enable_zinc_lead=true
+enable_gossan=true
+
+# Interpolation grid settings
+enable_grid=false
+grid_boundary_padding_km=5.0
+
+# Logger settings ("DEBUG", "INFO", "WARNING", "ERROR")
+log_level=INFO
