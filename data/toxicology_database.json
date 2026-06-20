@@ -1,0 +1,201 @@
+{
+  "disclaimer": "GeoHealth is a community screening and decision-support tool. It is NOT a medical diagnosis. All risk assessments are based on published epidemiological case studies and WHO/ATSDR reference values. Consult a qualified health professional / Upazila Health Complex before clinical decisions.",
+  "toxicants": [
+    {
+      "element": "As",
+      "who_guideline": 0.01,
+      "who_guideline_unit": "mg/L",
+      "local_standards": [
+        {
+          "region": "Bangladesh",
+          "authority": "ECR",
+          "value": 0.05,
+          "unit": "mg/L"
+        }
+      ],
+      "outbreaks": [
+        {
+          "name": "Bangladesh Tube Well Crisis",
+          "range_low": 0.05,
+          "range_high": 2.0,
+          "unit": "mg/L",
+          "exposure_pathway": "INGESTION_GROUNDWATER",
+          "age_group": "ALL",
+          "vulnerable_groups": ["CHILD_0_12", "PREGNANT"],
+          "illness": "Arsenicosis",
+          "symptoms": ["Raindrop melanosis", "Hyperkeratosis on palms and soles", "Squamous cell carcinoma of skin", "Internal bladder/lung cancers"],
+          "reference": "Smedley & Kinniburgh 2002"
+        },
+        {
+          "name": "Taiwan Blackfoot Disease Epidemic",
+          "range_low": 0.35,
+          "range_high": 1.14,
+          "unit": "mg/L",
+          "exposure_pathway": "INGESTION_GROUNDWATER",
+          "age_group": "ADULT_20_60",
+          "vulnerable_groups": [],
+          "illness": "Blackfoot Disease",
+          "symptoms": ["Thromboangiitis obliterans", "Peripheral vascular gangrene", "Auto-amputation of limbs"],
+          "reference": "Tseng 1977"
+        }
+      ]
+    },
+    {
+      "element": "Pb",
+      "who_guideline": 0.01,
+      "who_guideline_unit": "mg/L",
+      "local_standards": [
+        {
+          "region": "USA",
+          "authority": "US_EPA_Action_Level",
+          "value": 0.015,
+          "unit": "mg/L"
+        },
+        {
+          "region": "Soil_Residential",
+          "authority": "WHO/EPA",
+          "value": 400.0,
+          "unit": "mg/kg"
+        }
+      ],
+      "outbreaks": [
+        {
+          "name": "Kabwe Lead Smelter Soil Crisis",
+          "range_low": 1400.0,
+          "range_high": 62142.0,
+          "unit": "mg/kg",
+          "exposure_pathway": "INGESTION_SOIL_DUST",
+          "age_group": "CHILD_0_6",
+          "vulnerable_groups": ["CHILD_0_6"],
+          "biomarker_threshold": "BLL >= 45 ug/dL",
+          "illness": "Lead Encephalopathy",
+          "symptoms": ["Convulsions", "Lead palsy/wrist drop", "Stunted growth", "Severe anemia", "Cognitive degradation"],
+          "reference": "WHO 2020"
+        },
+        {
+          "name": "Flint Water Crisis",
+          "range_low": 0.015,
+          "range_high": 0.1,
+          "unit": "mg/L",
+          "exposure_pathway": "INGESTION_DRINKING_WATER",
+          "age_group": "CHILD_0_6",
+          "vulnerable_groups": ["CHILD_0_6", "PREGNANT"],
+          "biomarker_threshold": "BLL >= 5 ug/dL",
+          "illness": "Neurodevelopmental Delay",
+          "symptoms": ["ADHD", "Reduced IQ", "Learning disabilities", "Speech impairment"],
+          "reference": "Hanna-Attisha 2016"
+        }
+      ]
+    },
+    {
+      "element": "Hg",
+      "who_guideline": 0.006,
+      "who_guideline_unit": "mg/L",
+      "local_standards": [
+        {
+          "region": "Fish_Standard",
+          "authority": "WHO",
+          "value": 0.5,
+          "unit": "mg/kg"
+        }
+      ],
+      "outbreaks": [
+        {
+          "name": "Minamata Bay Outbreak",
+          "range_low": 5.0,
+          "range_high": 20.0,
+          "unit": "mg/kg_fish",
+          "exposure_pathway": "INGESTION_FOOD_FISH",
+          "age_group": "PREGNANT",
+          "vulnerable_groups": ["PREGNANT", "FETUS"],
+          "transplacental": true,
+          "illness": "Minamata Disease",
+          "symptoms": ["Cerebellar ataxia", "Tunnel vision", "Dysarthria", "Spastic convulsions", "Microcephaly in infants"],
+          "reference": "Harada 1995"
+        }
+      ]
+    },
+    {
+      "element": "Cd",
+      "who_guideline": 0.003,
+      "who_guideline_unit": "mg/L",
+      "local_standards": [
+        {
+          "region": "Dietary_Intake",
+          "authority": "WHO",
+          "value": 60.0,
+          "unit": "ug/day"
+        }
+      ],
+      "outbreaks": [
+        {
+          "name": "Toyama Prefecture Itai-Itai Disease",
+          "range_low": 0.5,
+          "range_high": 1.0,
+          "unit": "mg/kg_rice",
+          "exposure_pathway": "INGESTION_FOOD_RICE",
+          "age_group": "ELDERLY_FEMALE",
+          "vulnerable_groups": ["POST_MENOPAUSAL_FEMALES"],
+          "dietary_dose": "600 ug/day",
+          "illness": "Itai-Itai Disease",
+          "symptoms": ["Osteomalacia", "Osteoporosis", "Urinary proteinuria", "Renal tubular dysfunction", "Bone fractures"],
+          "reference": "Nogawa 1987"
+        }
+      ]
+    },
+    {
+      "element": "Cr",
+      "who_guideline": 0.05,
+      "who_guideline_unit": "mg/L",
+      "local_standards": [
+        {
+          "region": "California",
+          "authority": "OEHHA_PHG",
+          "value": 0.00002,
+          "unit": "mg/L"
+        }
+      ],
+      "outbreaks": [
+        {
+          "name": "Hinkley Groundwater Plume",
+          "range_low": 0.00119,
+          "range_high": 0.02,
+          "unit": "mg/L",
+          "exposure_pathway": "INGESTION_GROUNDWATER",
+          "age_group": "ALL",
+          "vulnerable_groups": [],
+          "illness": "Hexavalent Chromium Poisoning",
+          "symptoms": ["Gastrointestinal ulcers", "Gastrointestinal bleeding", "Contact dermatitis", "Elevated gastric cancer risk"],
+          "reference": "OEHHA 2011"
+        }
+      ]
+    },
+    {
+      "element": "F",
+      "who_guideline": 1.5,
+      "who_guideline_unit": "mg/L",
+      "local_standards": [
+        {
+          "region": "India",
+          "authority": "BIS",
+          "value": 1.0,
+          "unit": "mg/L"
+        }
+      ],
+      "outbreaks": [
+        {
+          "name": "Nalgonda Fluorosis Epidemic",
+          "range_low": 2.0,
+          "range_high": 10.0,
+          "unit": "mg/L",
+          "exposure_pathway": "INGESTION_GROUNDWATER",
+          "age_group": "ALL",
+          "vulnerable_groups": ["CHILD_0_12"],
+          "illness": "Dental and Skeletal Fluorosis",
+          "symptoms": ["Enamel mottling", "Brown teeth staining", "Spinal stiffness", "Osteosclerosis", "Crippling joint deformities"],
+          "reference": "Susheela 2001"
+        }
+      ]
+    }
+  ]
+}
