@@ -1,6 +1,6 @@
 # GeoIQ & GeoHealth — Master Reference & Submission Manual
-**USAII Global AI Hackathon 2026 — Team GeoIQ-Alpha**
-*Qualifier Code:* `HS26-44677104` | *Qualifier Score:* `100/100 (Rank #1 of 320)`
+** AI Hackathon 2026 — Team GeoIQ-Alpha**
+
 
 ---
 
