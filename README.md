@@ -1,6 +1,6 @@
 # GeoIQ & GeoHealth — Geological Intelligence & Hazard Mapping Platform
 ## High-Performance C++17 Subsurface Exploration & Environmental Health Engine
-### USAII Global AI Hackathon 2026 Submission
+### GeoIQ: Earth, Water, Health
 
 ---
 
