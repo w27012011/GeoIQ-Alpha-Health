@@ -1,5 +1,5 @@
 # GeoIQ & GeoHealth — Hackathon Submission Changelog
-**USAII Global AI Hackathon 2026 — Team GeoIQ-Alpha**
+** AI Hackathon 2026 — Team GeoIQ-Alpha**
 
 This document details the modifications made to the system just now, the current state of the codebase, and how it aligns with the hackathon's scoring guidelines.
 
